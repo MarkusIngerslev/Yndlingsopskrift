@@ -16,6 +16,14 @@ header {
   padding-right: auto;
 }
 
+header img {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body > section article {
   background-color: #667484;
   padding: 2em;
@@ -31,7 +39,7 @@ section h1 {
 h2 {
   font-family: "Ubuntu", sans-serif;
   color: #a76c5c;
-  font-size: 20px;
+  font-size: 27px;
   padding-bottom: 20px;
   padding-left: 1em;
   padding-top: 20px;
@@ -52,16 +60,34 @@ ul {
 
 section p,
 section ul {
-  font-family: "Poppins", sans-serif;
+  font-family: "Signika", sans-serif;
+  font-size: 20px;
   color: #faf7cf;
+}
+
+.item3 > ul,
+.item4 > p {
+  padding-bottom: 20px;
+  padding-left: 1em;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  border-bottom-color: rgba(0, 0, 0, 0.3);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 #ingridienser li {
   padding: 10px;
 }
+.item3,
+.item4 {
+  padding-bottom: 2em;
+}
 
 footer {
   background-color: #faf7cf;
+  font-family: "Signika", sans-serif;
+  font-size: 25px;
   color: #467898;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -74,7 +100,7 @@ footer {
   padding: 1em;
 }
 
-.addres {
+.address {
   grid-column: 2/3;
 }
 
